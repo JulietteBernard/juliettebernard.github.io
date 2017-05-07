@@ -13,17 +13,27 @@
         
         <nav>
 
-        <div>
-            
-            <ul><a href="index.html">Acceuil</a> 
-        </ul>
-        <ul><a href="apropos.html">Qui suis je ?</a> 
-        </ul>
-        <ul><a href="creation.html">Mes créations</a> 
-        </ul>
-         <ul><a href="conctat.html"> Me contactez</a> 
-        </ul>
-            </div>
+       <div class="topnav" id="myTopnav">
+  <a href="index.html">Acceuil</a> 
+       
+       <a href="apropos.html">Qui suis je ?</a> 
+       
+        <a href="creation.html">Mes créations</a> 
+        
+         <a href="conctat.html"> Me contactez</a> 
+        
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+              <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
        
     </nav>
         <img id="logo" src='image/logo.png' />
