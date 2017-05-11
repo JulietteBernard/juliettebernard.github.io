@@ -41,7 +41,7 @@ function affiche(){
       $('#modal').css("display","block");
       var id= $(this).attr("id");
      $('#delete').click(nonaffiche);
-    $('#titreModal').html(id);
+   
     if(id=="L'affiche retro geek"){        
         $('#img-modal').replaceWith('<img  id="img-modal"style="width:40%; height:40%;"src="image/retro-geek-logo.png"/>');
         $('#img-modal').attr("src",crea1[0]);

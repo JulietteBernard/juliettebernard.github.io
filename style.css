@@ -7,9 +7,11 @@
     
     
 }
+nav{width: 100%;}
 
 .topnav {
-  overflow: hidden;
+    width: 100%;
+ 
      display: flex;
     font-family: "gras";
 
@@ -47,8 +49,8 @@ list-style-type:none;
     text-align: justify;
 }
 #modal{ width: 95%;
- height: 80%;
-    margin: 10px;
+ 
+    margin-left:10px;
 
 position: absolute;
 z-index: 18;
@@ -65,7 +67,6 @@ display: none;}
     
 }
 #realisation{
-    
     display: flex;
     
 
@@ -78,7 +79,6 @@ display: none;}
 }
 #loisir{
     height: 300px;
-    width: 100%;
        
      background-color: rgba(231, 216, 233, 0.4);
     margin: 2px ;
@@ -97,10 +97,9 @@ display: none;}
 }
 .contenu-competence{
     height: 300px;
-    width: 32.7%;
-    
-     background-color: rgba(231, 216, 233, 0.4);
-    margin: 2px ;
+    width: 33.5%;
+    margin: 1px ;
+    background-color: rgba(231, 216, 233, 0.4);
     
 }
 .contenu-realisation h2{
@@ -128,7 +127,7 @@ display: none;}
 
 .contenu-realisation{
 
-    width: 32.7%;
+    width: 32.6%;
     
      background-color: rgba(231, 216, 233, 0.2);
     margin: 2px ;
@@ -201,7 +200,7 @@ a{
     margin-left: 10%;
 }
 footer{
-   
+   width: 100%;
     background-color: rgba(231, 216, 233, 1);
     padding: 5px;    
 
@@ -223,12 +222,12 @@ src: url('CaviarDreams_Bold.ttf');
 body {
     background-size:  cover;
       -webkit-background-size: cover; 
-  background-image: url(image/eeee.png);
+  background-image: url(image/fond.png);
     margin: 0px;
     padding: 0px;
 
     background-repeat:no-repeat;
-  width: 100%;
+
     font-family: "aubrey";
     width: 100vw;
 margin: auto;
