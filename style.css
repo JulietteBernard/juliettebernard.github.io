@@ -95,6 +95,7 @@ display: none;}
     text-align: center;
     color: white;
 }
+
 .contenu-competence{
     height: 300px;
     width: 33.5%;
@@ -102,6 +103,8 @@ display: none;}
     background-color: rgba(231, 216, 233, 0.4);
     
 }
+#contact{margin-top:14%; width: 50%;text-align: center;}
+
 .contenu-realisation h2{
     text-align: center;
     
