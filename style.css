@@ -223,6 +223,7 @@ src: url('CaviarDreams.ttf');
 src: url('CaviarDreams_Bold.ttf');
 }
 body {
+     overflow-x : hidden;
     background-size:  cover;
       -webkit-background-size: cover; 
   background-image: url(image/fond.png);
