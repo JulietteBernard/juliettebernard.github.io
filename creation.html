@@ -3,45 +3,285 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Acceuil </title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
-        </script>
-        <script src="js.js"></script>
-    
+    <title>Juliette Bernard </title>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
 </head>
 
 <body>
-
-    
-        
-        <nav>
-
-       
-            <div class="topnav" id="myTopnav">
-  <a href="index.html">Création</a> 
-       
-       <a href="apropos.html">Qui suis je ?</a> 
-       
-        <a href="creation.html">Mes créations</a> 
-        
-         <a href="conctat.html"> Me contacter</a> 
-        
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-            
+    <nav class="topnav">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Juliette B.</a>
+            <a href="" data-target="slide-out" class="sidenav-trigger"><img alt="menu" class="menu" src="image/line-menu.png" /></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="apropos.html">Qui suis je ?</a></li>
+                <li><a href="creation.html">Mes créations</a></li>
+                <li><a href="contact.html"> Me contacter</a></li>
+            </ul>
+        </div>
     </nav>
-    <div id= "modal"> <div style="display:flex;"><img id="delete" style="height:20px;"src="image/delete.png"/></div> <div style="display:flex;"id="contenuModal"><img  id="img-modal"style="width:40%; height:40%;"src="image/retro-geek-logo.png"/> <div id="text-contenu"><h2 id="titre-modal"></h2><p id="text-modal"></p></div></div> <div id='fin'></div></div>
-    <div><h1  class="test" style="text-align:center" data-text="Mes Créations"> </h1></div>
-    <div id="text-rea"></div>
-    <div id="realisation"><div id="L'affiche retro geek" class="contenu-realisation"><h2>L'affiche Retro Geek</h2><img class="rea"  src="image/retro-geek.png"/></div><div id="logo retro geek" class="contenu-realisation"><h2>Logo de Retro Geek </h2><img class="rea"  src="image/retro-geek-logo.png"/></div><div id="Logo Hello!Project Game"class="contenu-realisation"><h2>Logo Hello!Project Game</h2><img class="rea" src="image/helloproject.png"/></div></div>
-   <div id="realisation"><div id="MMI4LIFE" class="contenu-realisation"><h2>MMI4LIFE</h2><img class="rea"  src="image/chalenge.png"/></div><div id="Reportage" class="contenu-realisation"><h2>webrepportage de Retro Geek </h2><img class="rea"  src="image/retro01.png"/></div><div id="soleil"class="contenu-realisation"><h2>Logo soleil d'avenir</h2><img class="rea" src="image/soleil%20avenir.png"/></div></div>
-    <div id="realisation"><div id="Canal ti zef" class="contenu-realisation"><h2>Canal ti zef</h2><img class="rea"  src="image/canaltizef00.png"/></div><div id="kelt" class="contenu-realisation"><h2>Kelt</h2><img class="rea"  src="image/KELT.png"/></div><div id="Carte de visite"class="contenu-realisation"><h2>Mes cartes de visite</h2><img class="rea" src="image/carte.png"/></div></div>
-    <div id="realisation"><div class="contenu-realisation"></div><div class="contenu-realisation"></div><div class="contenu-realisation"></div></div>
-    <footer>  crée par Juliette Bernard 2017  </footer>
-    <script>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="apropos.html">Qui suis je ?</a></li>
+        <li><a href="creation.html">Mes créations</a></li>
+        <li><a href="contact.html"> Me contacter</a></li>
+    </ul>
 
-</script>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Mon année à Apitic</h4>
+            <div class="modal-rea">
+                <img src="image/apitic.jpg">
+                <p>
+                    De septembre 2017 à 2018, j'ai effectué ma licence pro en alternance à Apitic. c'est une PME française située à Lannion, dans le domaine de la programmation informatique. Cette société développe et commercialise principalement des logiciels permettant d’accompagner les commerçants ou les artisans comme la web caisse. Une web-caisse est un logiciel de caisse full web, c'est-à-dire une caisse fonction avec un navigateur web, sans aucun autre logiciel installé. La web caisse va permettre de gérer les commandes, les livraisons, les inventaires,...
+                    <br/>
+                    <br/> Lors de mon année à apitic j'ai effectué des correctifs de bugs, des améorations de fonction, création de nouvelle fonction. Aussi j'ai pu crée un intranet pour gérer les comptes d'une application de gestion coupon ou encore j'ai pu réalisée un nouveau projet permettant de donné la possibilité aux futurs clients de souscrire eux meme à aux offres et options d'Apitic.
+                    <br/> <strong>Langage utilisé durant l'année : </strong>Jquery, PHP, Symfony 1 et 2, Laravel, Bootstrap, Angular, Ionic, Slim, Lumen...
+                    <br/> <strong>Méthode de gestion de projet :</strong> Scrum
+
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Affiche Retro Geek</h4>
+            <div class="modal-rea">
+                <img src="image/retro-geek.png">
+                <p>
+                    En 2016, j'ai crée une affiche pour l'association Retro Geek, dont je fait partie. Cette affiche a pour but de promouvoir cette jeune association. Retro Geek est une association qui à pour objectif de préserver le patrimoine vidéoludique.
+                    <br/> Dans cette affiche j'ai cherché à représenter l'univers du retro Gaming avec une écriture pixelisé et des élements rappelant cet univers : la manette de la nes et un pistolet en pixel art.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <h4>Affiche Retro Geek</h4>
+            <div class="modal-rea">
+                <iframe id="img-modal" style="margin:5%;" width="500px" src="https://www.youtube.com/embed/sd5za_HxBAc" frameborder="0" allowfullscreen></iframe>
+
+                <p>
+                    Lors d'un projet tutoré, avec quatre étudiants de ma promotion, nous créons un application nommée kelt. L’objectif de l’application est de faire découvrir Brocéliande aux enfants sous forme de quêtes en rapport avec les légendes ou anecdotes. Le but serait de constituer son journal de bord. Cette application serait proposée à l’office de tourisme de Brocéliande afin de promouvoir la région. Nous avons crée un prototype et bientôt nous finirons la version finale. Sur le propotype, j'ai codé le déroulement d'une quête et les mini-jeux.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <h4>Web Reportage Retro Geek</h4>
+            <div class="modal-rea">
+                <img src="image/retro02.png">
+                <p>
+                    En 2017, lors d'un projet d'étude j'ai crée un web reportage sur retro geek. Dans l’application l’utilisateur va plongé dans univers du Retro gaming où comme dans un jeu il ya devoir resoudre une mission. Il va se promener dans diffèrents univers qui correspondront à une partie du reportage. Chaque univers fera référence à un jeu précis. Le but de l’utilisateur est de récolter toutes les informations. A la fin de chaque partie du reportage, il obtiendra une clef qui lui permettra d'accéder à la fin du web reportage.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <h4>MMI4LIFE</h4>
+            <div class="modal-rea">
+                <iframe id="img-modal" style="margin:5%;" width="500px" src="https://www.youtube.com/embed/LFWxXhLO2so" frameborder="0" allowfullscreen></iframe>
+                <p>
+                    Lors du projet tutoré en fin de première année MMI, j'ai réalisé plusieurs élémente d'un site web. le but de notre site était de créer un site communautaire pour les MMI : pour échanger, réaliser des défis (graphisme,...),... Dans ce projet je me suis principalement occupée du quizz à complèter avant inscription. j'ai réalisé les mascottes et le code (en js/css/html) . le but de ce Quizz était de poser des questions sur des connaissances, et grâce à ces réponses l'utilisateur peut intégrer une communauté (graphisme, audio visuel, programmation ou communication). (juin 2016)
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <h4>Projet Scolaire : Recherche de Tweet Politique</h4>
+            <div class="modal-rea">
+                <img src="image/Projet%20twitter5.png">
+                <div>
+                    En 2018, lors de ma license pro j'ai effectué différents projets dont un application sur le thème de twitter. L'objectif était "permettre à l’aide d’une application Internet l’interrogation d’une base de données constituées de Tweets, précédemment collectés. (par Api Tweet) Une application possible est notamment la réutilisation d’information en politique, afin par exemple d’opposé des citations à un concurrent politique lors d’un débat télévisé ou encore de procéder à une analyse d’opinion sur un sujet donné.
+                    <br/>
+                    <br/>
+                    <p> Fonctionalité :</p>
+                    <ul>
+                        <li>La recherche de tweets sur des critères precis </li>
+                        <li>La gestion des utilisateurs </li>
+                        <li>un Application Responsive </li>
+                        <li>La gestion de diffèrents types de profil d'utilisateur que peut definir l'admintrateur</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <h4>Affiche de Retro Geek</h4>
+            <div class="modal-rea">
+                <img src="image/retro-geek.png">
+                <p>
+                    En 2016, j'ai crée une affiche pour l'association Retro Geek, dont je fait partie. Cette affiche a pour but de promouvoir cette jeune association. Retro Geek est une association qui à pour objectif de préserver le patrimoine vidéoludique.
+                    <br/> Dans cette affiche j'ai cherché à représenter l'univers du retro Gaming avec une écriture pixelisé et des élements rappelant cet univers : la manette de la nes et un pistolet en pixel art.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <h4>Logo de Retro Geek</h4>
+            <div class="modal-rea">
+                <img src="image/retro-geek-logo.png">
+                <p>
+                    En Avril 2016, j'ai crée le logo de Retro Geek. J'ai cherché à représenter l'univers des anciens jeux vidéo à travers ce logo. Une des critères imposé par le président de l'association était d'utiliser des couleurs flash. Le contour du logo represente une manette du même style que la nes. L'écriture est pixélisé. Les 'e' sont en forme de pacman. Le 'o' est en forme de bloc mystère de Mario
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <h4>Logo de Hello!Project Game</h4>
+            <div class="modal-rea">
+                <img src="image/helloproject.png">
+                <p>
+                    En 2016, j'ai crée un logo pour la page 'Hello ! Project Game', La page Facebook est en ce moment inactive. C'est page gérée par Midori et Maiju, 2 fans du regroupement de groupes Hello!Project. Le but de la page est de créer des petits jeux sur cette passion commune.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal10" class="modal">
+        <div class="modal-content">
+            <h4>Logo Soleil d'avenir</h4>
+            <div class="modal-rea">
+                <img src="image/soleil%20avenir.png">
+                <p>
+                    En 2017, lors d'un cours de création d'entreprise, nous avons crée un projet d'entreprise où on a réalisé plusieurs logos. Voici un de ces logos. L'entreprise soleil avenir a pour but de produire de l'électricité via l'énergie solaire. Le logo represente un soleil se levant sur un champ de panneaux photovoltaiques avec un chemin qui répresente l'avenir. Le jaune réprensente le soleil.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal11" class="modal">
+        <div class="modal-content">
+            <h4>Site de Canal Ti Zef</h4>
+            <div class="modal-rea">
+                <img src="image/canaltizef.png">
+                <p>lors de mon stage à Canal ti zef, ma mission principale était d'améliorer le design du site, améliorer l'organisation du site et donner des pistes pour le rendre plus accessible aux utilisateurs. Les principales exigences de l'association est de garder leur site sous SPIP et de modifer un thème déja existant.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal12" class="modal">
+        <div class="modal-content">
+            <h4>Ma carte de visite</h4>
+            <div class="modal-rea">
+                <img src="image/carte.png">
+                <p>
+                    En 2016, j'ai crée mes cartes visites qui repprend l'univers que j'ai crée dans mon cv. J'ai voulu me créer une identité visuelle avec un logo qui me représente avec des couleurs qui me plaisent.
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="test" style="text-align:center" data-text="Mes Créations"> </h1>
+    </div>
+    <div id="realisation">
+        <div href="#modal1" class="modal-trigger contenu-realisation">
+            <h2>Mon année à Apitic</h2>
+            <img class="rea" src="image/apitic.jpg" />
+        </div>
+        <div href="#modal2" class="modal-trigger contenu-realisation">
+            <h2>Site de Retro Geek (En cours)</h2>
+            <img class="rea" src="image/retro-geek-logo.png" />
+        </div>
+        <div href="#modal3" class="modal-trigger contenu-realisation">
+            <h2>Kelt</h2>
+            <img class="rea" src="image/KELT.png" />
+        </div>
+    </div>
+    <div id="realisation">
+        <div href="#modal4" class="modal-trigger contenu-realisation">
+            <h2>webrepportage de Retro Geek </h2>
+            <img class="rea" src="image/retro01.png" />
+        </div>
+        <div href="#modal5" class="modal-trigger contenu-realisation">
+            <h2>MMI4LIFE</h2>
+            <img class="rea" src="image/chalenge.png" />
+        </div>
+        <div href="#modal6" class="modal-trigger contenu-realisation">
+            <h2>Projet Scolaire : Recherche de Tweet Politique</h2>
+            <img class="rea" src="image/Projet%20twitter5.png" />
+        </div>
+    </div>
+    <div id="realisation">
+        <div href="#modal7" class="modal-trigger contenu-realisation">
+            <h2>L'affiche de Retro Geek</h2>
+            <img class="rea" src="image/retro-geek.png" />
+        </div>
+        <div href="#modal8" class="modal-trigger contenu-realisation">
+            <h2>Logo de Retro Geek </h2>
+            <img class="rea" src="image/retro-geek-logo.png" />
+        </div>
+        <div href="#modal9" class="modal-trigger contenu-realisation">
+            <h2>Logo Hello!Project Game</h2>
+            <img class="rea" src="image/helloproject.png" />
+        </div>
+    </div>
+    <div id="realisation">
+        <div href="#modal10" class="modal-trigger contenu-realisation">
+            <h2>Logo soleil d'avenir</h2>
+            <img class="rea" src="image/soleil%20avenir.png" />
+        </div>
+        <div href="#modal11" class="modal-trigger contenu-realisation">
+            <h2>Canal ti zef</h2>
+            <img class="rea" src="image/canaltizef00.png" />
+        </div>
+        <div href="#modal12" class="modal-trigger contenu-realisation">
+            <h2>Ma carte de visite</h2>
+            <img class="rea" src="image/carte.png" />
+        </div>
+    </div>
+    <footer> © 2018 Copyright Juliette Bernard</footer>
 </body>
 
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/js.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.sidenav').sidenav();
+        $('.modal').modal();
+    });
+
+</script>

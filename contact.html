@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Juliette Bernard </title>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="topnav">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Juliette B.</a>
+            <a href="" data-target="slide-out" class="sidenav-trigger"><img alt="menu" class="menu" src="image/line-menu.png" /></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="apropos.html">Qui suis je ?</a></li>
+                <li><a href="creation.html">Mes créations</a></li>
+                <li><a href="contact.html"> Me contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="apropos.html">Qui suis je ?</a></li>
+        <li><a href="creation.html">Mes créations</a></li>
+        <li><a href="contact.html"> Me contacter</a></li>
+    </ul>
+    <div class="contact">
+        <img id="img-contact" src="image/testporte.png" />
+        <div id="contact" style="">
+            <h1 class="test" style="text-align:center" data-text="Rester en contact ?"></h1>
+            <p>Pour plus d'informations, n'hesitez pas à me contacter par mail.</p>
+            <p>juliette.bernard013@gmail.com</p>
+        </div>
+    </div>
+    <footer style="margin-top:10px;">© 2018 Copyright Juliette Bernard</footer>
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/js.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+
+
+    $(document).ready(function() {
+        $('.sidenav').sidenav();
+    });
+
+</script>

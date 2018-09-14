@@ -3,34 +3,44 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Accueil </title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Juliette Bernard </title>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
 </head>
 
-<body style="background-image: url(image/eeee.png);">
-
-    <header>
-        
-        <nav>
-
-       <div class="topnav" id="myTopnav">
-  <a href="index.html">Accueil</a> 
-       
-       <a href="apropos.html">Qui suis je ?</a> 
-       
-        <a href="creation.html">Mes créations</a> 
-        
-         <a href="conctat.html"> Me contacter</a> 
-        
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-       
+<body class="fond" style="background-image: url(image/eeee.png);">
+    <nav class="topnav">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Juliette B.</a>
+            <a href="" data-target="slide-out" class="sidenav-trigger"><img alt="menu" class="menu" src="image/line-menu.png" /></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="apropos.html">Qui suis je ?</a></li>
+                <li><a href="creation.html">Mes créations</a></li>
+                <li><a href="contact.html"> Me contacter</a></li>
+            </ul>
+        </div>
     </nav>
-       
-        
-    </header>
-    
+    <ul id="slide-out" class="sidenav">
+        <li><a href="apropos.html">Qui suis je ?</a></li>
+        <li><a href="creation.html">Mes créations</a></li>
+        <li><a href="conctat.html"> Me contacter</a></li>
+    </ul>
+
 </body>
 
 </html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+
+
+    $(document).ready(function() {
+        $('.sidenav').sidenav();
+    });
+
+</script>
