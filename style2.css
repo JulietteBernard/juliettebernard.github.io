@@ -255,7 +255,7 @@ body {
 
 /*version mobile */
 
-@media screen and (min-width: 200px) and (max-width: 640px) {
+@media all and (min-width: 200px) and (max-width: 740px) {
     .fond {
         background-image: url(image/fondindex2.png)!important;
     }
