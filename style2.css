@@ -252,6 +252,14 @@ body {
 .modal-rea iframe {
     margin-right: 5px;
 }
+footer {
+    background-color: rgba(134, 95, 165);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
 
 /*version mobile */
 
